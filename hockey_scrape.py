@@ -29,8 +29,8 @@ while next_page:
         data = ([x.get_text().strip() if len(x.get_text().strip()) else '0'  for x in row.find_all('td')][:-1])
         print(data)
         rows.append(data)
-        #cur.execute(query, data)
-        #cur.connection.commit()
+        cur.execute(query, data)
+        cur.connection.commit()
 
     if page.find_all('a',href=True)[-1]['href'] != next_page:
         next_page = page.find_all('a',href=True)[-1]
