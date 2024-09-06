@@ -1,6 +1,6 @@
-# Team Performance Data Dashboard
+# Team Performance Data Analysis 📊
 
-## Overview
+## Overview 
 This project focuses on scraping and analyzing sports team performance data. The dashboard provides insights into key metrics such as wins, losses, overtime losses, goals scored, and goals conceded. I've ran various SQL queries to explore trends, including identifying the teams with the most wins, highest win percentages, and best goal differences across different seasons.
 
 The project uses web scraping to collect the data, stores it in a MySQL database, and provides tools for analysis. The combination of data extraction and SQL-based queries makes it ideal for data-driven exploration and reporting.
